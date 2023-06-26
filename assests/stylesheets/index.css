@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #121139;
+    width: 100%;
+    height: 100%;
+}
+
+.base_line{
+    position: absolute;
+    background-color: #fff;
+    height: 0.1vw;
+    width: 100%;
+    top: 50vh;
+    transform-origin: center;
+}
+
+.point{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 1vw;
+    width: 1vw;
+    top: 50vh;
+    left: 50vw;
+}
+
+.grid{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0vh;
+    left: 0vw;
+    overflow: hidden;
+}
+
+.line{
+    position: absolute;
+    background-color: #fff;
+    height: 0.1vw;
+    width: 100%;
+    top: 50.6vh;
+    left: 50.5vw;
+    transform-origin: left;
+}
